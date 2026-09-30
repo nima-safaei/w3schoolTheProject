@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+}
+
+main aside {
+  height: 1000px;
+}
+
+main aside .pencils {
+  text-align: right;
+  margin: 15px;
+  background-color: #ff0000;
+  color: #041717;
+}
+
+main aside h3 {
+  margin: 30px;
+}
+
+main aside h3 span {
+  color: chartreuse;
+}
+
+main aside #botn > button {
+  text-align: left;
+  border-radius: 0;
+  color: #041717;
+  background-color: #ffffff;
+}
+
+main aside #btn > button {
+  background-color: #333;
+  border: #333;
+  border-radius: 0;
+  text-align: left;
+}
+
+main aside #btn > button:hover {
+  background-color: #141414;
+}
+
+main aside form {
+  height: 100%;
+  width: 100%;
+}
+
+main aside form div input {
+  height: 150px;
+}
+
+main aside #inbox {
+  border: white;
+  border-radius: 0;
+  background-color: red;
+}
+
+main aside #inbox:hover {
+  background-color: #818181;
+}
+
+main aside #menu div:hover {
+  background-color: #818181;
+}
+
+main aside #menu div a {
+  color: black;
+  padding-left: 6px;
+}
+
+main #pepole div img {
+  width: 50px;
+  border-radius: 5px;
+}
+
+main #pepole div h5 {
+  color: #838383;
+  padding-top: 8px;
+}
+
+main #scrol {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+article figure {
+  margin-top: 30px;
+}
+
+article figure img {
+  width: 160px;
+  border-radius: 5px;
+}
+
+article #title {
+  color: #838383;
+}
+
+article hr {
+  color: #041717;
+}
+
+article #action a {
+  background-color: #e2dfdf;
+  color: #041717;
+  border: 0;
+  border-radius: 0%;
+}
+
+article #action a:hover {
+  background-color: #838383;
+}
+/*# sourceMappingURL=style.css.map */

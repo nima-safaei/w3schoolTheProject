@@ -1,0 +1,155 @@
+@import"vars" ;
+
+
+
+*{
+    margin: 0;
+}
+
+main{
+    
+    aside{
+        .pencils{
+            text-align: right;
+            margin: 15px;
+            background-color: $bg-red;
+            color: $color3;
+        }
+
+        height: 1000px;
+    
+        
+        
+        
+        
+        h3{
+            margin: $mrgin1;
+        
+        span{
+           color: chartreuse;
+        }
+        }
+        #botn>button{
+            text-align: left;
+            border-radius: 0;
+            color: $color3;
+            background-color: $bg-white;
+        }
+       #btn>button{
+        background-color: $bg-dark;
+        border: $bg-dark;
+        border-radius: 0;
+        text-align: left;
+       }
+       #btn>button:hover{
+        background-color: $bg-dark1;
+
+       }
+       
+        form{
+            height: 100%;
+            width: 100%;
+          
+        
+           div{
+              input{
+                    height: 150px;
+                }
+
+           }
+         
+           
+      
+            
+              
+            }
+            #inbox{
+                border: white;
+                border-radius: 0;
+                background-color: red;
+
+            }
+            #inbox:hover{
+                background-color: $bg-dark3;
+
+            }
+            #menu{
+                div:hover{
+                    background-color: $bg-dark3;
+                }
+                div{
+                    a{
+                        color:black ;
+                        padding-left:6px ;
+                    }
+                   
+                }
+            }
+       
+  
+
+        }
+        #pepole{
+            div{
+                img{
+                width: 50px;
+                border-radius: 5px;
+               
+            }
+            h5{
+                color:$color1 ;
+                padding-top:8px ;
+            }
+
+            }
+            
+
+        }
+        #scrol{
+            
+            overflow-y: auto;
+    overflow-x: hidden;
+
+        }
+    
+        
+    }
+    
+
+
+    article{
+       
+     
+        figure{
+            margin-top: $mrgin1 ;
+            img{
+                width: $w-img;
+                  border-radius: 5px;
+            }
+
+        }
+        #title{
+            color: $color1;
+        } 
+        hr{
+            color: $color3;
+        }
+        #action{
+            a{
+                background-color: $color2;
+                color: $color3 ;
+                border:0;
+                border-radius: 0%; 
+
+            }
+            a:hover{
+                background-color: $color1;
+            }
+        
+           
+           
+       
+
+    }
+}
+
